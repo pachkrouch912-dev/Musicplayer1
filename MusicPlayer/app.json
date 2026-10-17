@@ -22,7 +22,10 @@
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
         "INTERNET",
-        "android.permission.MODIFY_AUDIO_SETTINGS"
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
       ],
       "enableProguardInReleaseBuilds": false,
       "enableDangerousExperimentalLeanBuilds": false
@@ -31,6 +34,9 @@
       "eas": {
         "projectId": "29077e09-f2c9-4052-978f-91896d87a2af"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "com.pachkrouch.musicplayer"
     }
   }
 }
