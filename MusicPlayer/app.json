@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "MusicPlayer",
-    "slug": "MusicPlayer",
-    "owner": "pachkrouch912",
+    "slug": "musicplayer-7gquftplbnoksgtpabsjq",
+    "owner": "pachkrouch912s-team",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
@@ -20,8 +20,14 @@
       "permissions": [
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
-        "INTERNET"
+        "INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29077e09-f2c9-4052-978f-91896d87a2af"
+      }
     }
   }
 }

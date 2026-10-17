@@ -17,6 +17,7 @@
     "web": "expo start --web"
   },
   "private": true
+<<<<<<< HEAD
   "expo": {
   "doctor": {
     "reactNativeDirectoryCheck": {
@@ -27,4 +28,7 @@
   }
 }
 
+=======
+  
+>>>>>>> 97c50e6 (Update package.json and config for build)
 }
