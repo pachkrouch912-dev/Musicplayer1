@@ -22,7 +22,9 @@
         "WRITE_EXTERNAL_STORAGE",
         "INTERNET",
         "android.permission.MODIFY_AUDIO_SETTINGS"
-      ]
+      ],
+      "enableProguardInReleaseBuilds": false,
+      "enableDangerousExperimentalLeanBuilds": false
     },
     "extra": {
       "eas": {
